@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme.Login" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyEditTextTheme">
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">#9e9e9e</item>
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+    </style>
+
+    <style name="MyButtonTheme">
+
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+
+</resources>
